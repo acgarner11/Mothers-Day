@@ -1,0 +1,6 @@
+# ignore node dependency directories
+.DS_Store
+.idea
+/dev-gulp/node_modules
+/dev-gulp/style.css
+/dev-gulp/index.php

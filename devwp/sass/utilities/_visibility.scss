@@ -1,0 +1,14 @@
+//*********************************************
+//************ VISIBILITY TOOLS ***************
+//*********************************************
+@media screen and (max-width: 39.9375em) {
+  .show-for-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .show-for-mobile {
+    display: none;
+  }
+}

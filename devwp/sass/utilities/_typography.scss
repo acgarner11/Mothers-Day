@@ -1,0 +1,161 @@
+/**
+ * Typography
+ * =================================
+ * - Base
+ * - Headers
+ * - Paragraphs
+ * - Text Transformations
+ * - Text Placements
+ *
+ * Body font size, headings etc have been set in /variables
+ *
+ *
+ */
+
+
+//*********************************************
+//****************** BASE *********************
+//*********************************************
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $main-font;
+  font-size: $normal;
+}
+
+
+
+
+//*********************************************
+//***************** HEADERS *******************
+//*********************************************
+h1, h2, h3 {
+  font-family: $head-font;
+  color: $primary;
+  font-weight: 800;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: $xlarge;
+  color: $background;
+}
+
+h2 {
+  font-size: $large;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: $medium;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: $main-font;
+  font-size: $small;
+  text-transform: uppercase;
+  color: $primary;
+  font-weight: 800;
+}
+
+h5 {
+  font-family: $main-font;
+  font-size: $small;
+  color: $primary;
+  font-weight: 800;
+}
+
+
+
+//*********************************************
+//*************** FONT SIZES ******************
+//*********************************************
+.small-font {
+  font-size: $small;
+}
+
+.medium-font {
+  font-size: $medium;
+}
+
+.large-font {
+  font-size: $large;
+}
+
+.xlarge-font {
+  font-size: $xlarge;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .medium-font-mobile {
+    font-size: $medium;
+  }
+}
+
+
+//*********************************************
+//*************** PARAGRAPHS ******************
+//*********************************************
+p {
+  font-family: $main-font;
+  font-size: $normal;
+  color: black;
+  padding: 20px;
+  line-height: 1.6;
+  padding-bottom: 0;
+}
+
+.featured-paragraph {
+  font-size: 1.2em;
+}
+
+
+
+//*********************************************
+//****************** LINKS *******************
+//*********************************************
+
+a {
+  color: $primary;
+}
+
+a:hover {
+  color: $primary;
+}
+
+a:active {
+  color: $primary;
+}
+
+a:visited {
+  color: $primary;
+}
+
+
+//*********************************************
+//********** TEXT TRANSFORMATION **************
+//*********************************************
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.italics {
+  font-style: italic;
+}
+
+
+

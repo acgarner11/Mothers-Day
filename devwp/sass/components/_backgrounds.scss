@@ -1,0 +1,76 @@
+/**
+ * Backgrounds
+ * =================================
+ * - Photo Header
+ * - Video Header
+ * - Color Backgrounds
+ *
+ *
+ *
+ *
+ */
+
+
+
+//*********************************************
+//************** PHOTO HEADER *****************
+//*********************************************
+
+.full-background {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+
+.full-background-xl {
+  height: 100vh;
+}
+
+
+//*********************************************
+//************** VIDEO HEADER *****************
+//*********************************************
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+
+}
+.viewport-header {
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+//*********************************************
+//************ COLOR BACKGROUNDS **************
+//*********************************************
+body {
+  background-color: $background;
+}
+
+.main-background {
+  background-color: $background;
+  color: $primary;
+}
+
+.inverted-background {
+  background-color: $primary;
+  color: $background;
+}
+
+.primary-background {
+  background-color: $background;
+}
+

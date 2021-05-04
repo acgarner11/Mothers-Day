@@ -1,0 +1,60 @@
+/**
+ * Main
+ * =================================
+ * - Variables
+ * - Buttons
+ * - Footer
+ * - Overrides
+ * - Backgrounds
+ * - Typography
+ *
+ *
+ *
+ * - Main file that gets rendered. If partials are roads, than this is Rome.
+ */
+
+
+//*********************************************
+//*************** VARIABLES *******************
+//*********************************************
+
+
+@import 'variables/colors.scss';
+@import 'variables/fonts.scss';
+@import 'variables/sizes.scss';
+
+
+//*********************************************
+//**************** UTILITIES ******************
+//*********************************************
+
+
+@import 'utilities/typography';
+@import 'utilities/spacing';
+@import 'utilities/alignment';
+@import 'utilities/utility-classes';
+@import 'utilities/visibility';
+
+
+//*********************************************
+//*************** COMPONENTS ******************
+//*********************************************
+
+
+@import 'components/header';
+@import 'components/footer';
+@import 'components/buttons';
+@import 'components/backgrounds';
+
+
+
+
+
+
+
+
+
+
+
+
+

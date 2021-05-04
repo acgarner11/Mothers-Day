@@ -1,0 +1,33 @@
+/**
+ * Utility Classes
+ * =================================
+ * - Opacity
+ * - Rounded Corners
+ * - Box Shadow
+ *
+ *
+ *
+ */
+
+
+//Opacity
+.opacity-medium {
+  opacity: .8;
+}
+
+// Rounded Corners
+.rounded-corners {
+  border-radius: 15px;
+}
+
+.rounded-corners-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+
+
+// Box Shadow
+.box-shadow {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
